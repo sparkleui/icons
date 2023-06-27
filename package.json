@@ -1,0 +1,51 @@
+{
+    "name": "aurora-icons",
+    "description": "Icons font based on Feathericons for AuroraUI framework",
+    "version": "1.0.0",
+    "type": "module",
+    "author": "Daniele De Luca",
+    "license": "MIT",
+    "config": {
+        "fullName": "Aurora icons"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "keywords": [
+        "aurora",
+        "aurora-ui",
+        "icons",
+        "font",
+        "eot",
+        "svg",
+        "ttf",
+        "woff"
+    ],
+    "homepage": "https://danieledeluca.github.io/aurora-ui/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danieledeluca/aurora-icons.git"
+    },
+    "bugs": {
+        "url": "https://github.com/danieledeluca/aurora-icons/issues"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "sass": "^1.63.6",
+        "vite": "^4.3.9"
+    },
+    "files": [
+        "dist/*.css",
+        "dist/fonts/*",
+        "src/scss/*"
+    ],
+    "exports": {
+        ".": "./dist/aurora-icons.min.css",
+        "./scss": "./src/scss/_variables.scss"
+    }
+}
