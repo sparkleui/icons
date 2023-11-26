@@ -3,6 +3,94 @@
  * https://github.com/danieledeluca/sparkle-icons
  */
 
+@keyframes si-beat {
+    0%,
+    90% {
+        transform: scale(1);
+    }
+
+    45% {
+        transform: scale(1.25);
+    }
+}
+
+@keyframes si-bounce {
+    0%,
+    64%,
+    100% {
+        transform: scale(1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, 0.9) translateY(0);
+    }
+
+    30% {
+        transform: scale(0.9, 1.1) translateY(-0.5em);
+    }
+
+    50% {
+        transform: scale(1.05, 0.95) translateY(0);
+    }
+
+    57% {
+        transform: scale(1) translateY(-0.125em);
+    }
+}
+
+@keyframes si-fade {
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes si-flip {
+    50% {
+        transform: rotate3d(0, 1, 0, -180deg);
+    }
+}
+
+@keyframes si-shake {
+    0% {
+        transform: rotate(-15deg);
+    }
+
+    4% {
+        transform: rotate(15deg);
+    }
+
+    8%,
+    24% {
+        transform: rotate(-18deg);
+    }
+
+    12%,
+    28% {
+        transform: rotate(18deg);
+    }
+
+    16% {
+        transform: rotate(-22deg);
+    }
+
+    20% {
+        transform: rotate(22deg);
+    }
+
+    32% {
+        transform: rotate(-12deg);
+    }
+
+    36% {
+        transform: rotate(12deg);
+    }
+
+    40%,
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 @keyframes si-spin {
     0% {
         transform: rotate(0);
