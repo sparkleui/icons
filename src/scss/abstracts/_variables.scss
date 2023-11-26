@@ -1,13 +1,14 @@
-// =====================================================
-// Variables
-// =====================================================
+/**
+ * Copyright @ 2023 Sparkle Icons
+ * https://github.com/danieledeluca/sparkle-icons
+ */
 
-$aurora-icons-prefix: 'ai' !default;
-$aurora-icons-font-family: 'aurora-icons' !default;
-$aurora-icons-directory: './fonts' !default;
-$aurora-icons-file: '#{$aurora-icons-directory}/#{$aurora-icons-font-family}' !default;
-$aurora-icons-hash: '?24rua6' !default;
-$aurora-icons: (
+$sparkle-icons-prefix: 'si' !default;
+$sparkle-icons-font-family: 'sparkle-icons' !default;
+$sparkle-icons-directory: './fonts' !default;
+$sparkle-icons-file: '#{$sparkle-icons-directory}/#{$sparkle-icons-font-family}' !default;
+$sparkle-icons-hash: '?6spxzf' !default;
+$sparkle-icons: (
     'alert-triangle': '\e900',
     'apple': '\e901',
     'arrow-down': '\e902',
@@ -104,34 +105,6 @@ $aurora-icons: (
     'x': '\e95d',
     'youtube': '\e95e',
 ) !default;
-
-// Icon animations
-// =====================================================
-$aurora-icon-animations: (
-    'spin': 'icon-spin 1.5s linear infinite',
+$sparkle-icon-animations: (
+    'spin': 'si-spin 1.5s linear infinite',
 ) !default;
-
-// Spin
-@keyframes icon-spin {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-// Mixins
-// =====================================================
-@mixin aurora-icon($icon) {
-    $glyph: map-get($aurora-icons, $icon);
-
-    content: $glyph;
-    display: inline-block;
-    font-family: $aurora-icons-font-family;
-}
-
-@mixin aurora-icon-animation($name) {
-    animation: unquote(map-get($aurora-icon-animations, $name));
-}

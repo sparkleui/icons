@@ -1,0 +1,14 @@
+/**
+ * Copyright @ 2023 Sparkle Icons
+ * https://github.com/danieledeluca/sparkle-icons
+ */
+
+@keyframes si-spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

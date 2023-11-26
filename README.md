@@ -1,7 +1,14 @@
-# Aurora icons
+# Sparkle Icons
 
-Icons font based on [Feathericons](https://feathericons.com/) for [AuroraUI](https://github.com/danieledeluca/aurora-ui).
+Free, high quality, open source icon library based on [Feathericons](https://feathericons.com/).
 
-## Demo
+Include them as web fonts.
+Use them with or without [Sparkle](https://github.com/danieledeluca/sparkle) in any project.
 
-For a live demo please visit this [page](https://github.com/danieledeluca/aurora-ui/icons).
+## Documentation
+
+To check out docs, visit the [documentation](https://danieledeluca.github.io/sparkle/icons/demo/icons).
+
+## License
+
+Sparkle Icons is released under MIT license. Copyright © 2023 Daniele De Luca

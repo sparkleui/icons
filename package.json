@@ -1,33 +1,31 @@
 {
-    "name": "aurora-icons",
-    "description": "Icons font based on Feathericons for AuroraUI framework",
+    "name": "@sparkleui/sparkle-icons",
+    "description": "Free, high quality, open source icon library based on Feathericons.",
     "version": "1.0.0",
     "type": "module",
     "author": "Daniele De Luca",
     "license": "MIT",
-    "config": {
-        "fullName": "Aurora icons"
-    },
     "browserslist": [
         "last 2 versions"
     ],
     "keywords": [
-        "aurora",
-        "aurora-ui",
+        "sparkleui",
+        "sparkle",
         "icons",
+        "feathericons",
         "font",
         "eot",
         "svg",
         "ttf",
         "woff"
     ],
-    "homepage": "https://danieledeluca.github.io/aurora-ui/",
+    "homepage": "https://danieledeluca.github.io/sparkle/",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/danieledeluca/aurora-icons.git"
+        "url": "git+https://github.com/danieledeluca/sparkle-icons.git"
     },
     "bugs": {
-        "url": "https://github.com/danieledeluca/aurora-icons/issues"
+        "url": "https://github.com/danieledeluca/sparkle-icons/issues"
     },
     "scripts": {
         "dev": "vite",
@@ -45,7 +43,7 @@
         "src/scss/*"
     ],
     "exports": {
-        ".": "./dist/aurora-icons.min.css",
-        "./scss": "./src/scss/_variables.scss"
+        ".": "./dist/sparkle-icons.min.css",
+        "./scss": "./src/scss/abstracts/_abstracts.scss"
     }
 }

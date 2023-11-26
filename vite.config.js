@@ -6,18 +6,25 @@ import pkg from './package.json';
 export default defineConfig({
     build: {
         lib: {
-            entry: resolve(__dirname, 'src/aurora-icons.js'),
-            fileName: pkg.name,
+            entry: resolve(__dirname, 'src/js/sparkle-icons.js'),
+            fileName: 'sparkle-icons',
             formats: ['es'],
-            name: pkg.config.fullName,
+            name: 'sparkle-icons',
         },
         rollupOptions: {
-            input: resolve(__dirname, 'src/aurora-icons.js'),
+            input: resolve(__dirname, 'src/js/sparkle-icons.js'),
             output: {
                 assetFileNames: ({ name }) => {
-                    if (name === 'style.css') return `${pkg.name}.min.css`;
+                    if (name === 'style.css') return 'sparkle-icons.min.css';
                     return name;
                 },
+                banner: `
+                    /*!
+                     * Sparkle Icons (${pkg.homepage})
+                     * Version: ${pkg.version}
+                     * License: ${pkg.license}
+                     * Copyright: @ ${new Date().getFullYear()} ${pkg.author}
+                     */`,
             },
         },
     },
