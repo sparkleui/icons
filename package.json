@@ -1,7 +1,7 @@
 {
     "name": "@sparkleui/sparkle-icons",
     "description": "Free, high quality, open source icon library based on Feathericons.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "author": "Daniele De Luca",
     "license": "MIT",
