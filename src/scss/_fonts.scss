@@ -17,21 +17,15 @@
 
 [class^='#{$sparkle-icons-prefix}-icon-'],
 [class*=' #{$sparkle-icons-prefix}-icon-'] {
-    display: inline-block;
-    font-family: $sparkle-icons-font-family !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    &::before {
+        @include sparkle-icon;
+    }
 }
 
 @each $icon, $value in $sparkle-icons {
     .#{$sparkle-icons-prefix}-icon-#{$icon} {
         &::before {
-            @include sparkle-icon($icon);
+            content: $value;
         }
     }
 }
@@ -39,7 +33,7 @@
 @each $animation, $value in $sparkle-icon-animations {
     .#{$sparkle-icons-prefix}-icon-#{$animation} {
         &::before {
-            @include sparkle-icon-animation($animation);
+            animation: $value;
         }
     }
 }
