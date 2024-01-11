@@ -5,11 +5,7 @@
 
 @font-face {
     font-family: $sparkle-icons-font-family;
-    src: url('#{$sparkle-icons-file}.eot#{$sparkle-icons-hash}');
-    src: url('#{$sparkle-icons-file}.eot#{$sparkle-icons-hash}#iefix') format('embedded-opentype'),
-        url('#{$sparkle-icons-file}.ttf#{$sparkle-icons-hash}') format('truetype'),
-        url('#{$sparkle-icons-file}.woff#{$sparkle-icons-hash}') format('woff'),
-        url('#{$sparkle-icons-file}.svg#{$sparkle-icons-hash}##{$sparkle-icons-font-family}') format('svg');
+    src: $sparkle-icons-font-src;
     font-weight: normal;
     font-style: normal;
     font-display: block;
