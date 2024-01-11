@@ -1,5 +1,5 @@
 /**
- * Copyright @ 2023 Sparkle UI
+ * Copyright @ 2024 Sparkle UI
  * https://github.com/sparkleui/icons
  */
 
