@@ -1,6 +1,6 @@
 /*!
- * Sparkle Icons (https://danieledeluca.github.io/sparkle/)
- * Version: 1.0.2
+ * Sparkle Icons (https://sparkleui.github.io/sparkle/icons/introduction/what-is-sparkle-icons)
+ * Version: 1.0.3
  * License: MIT
- * Copyright: @ 2023 Daniele De Luca
+ * Copyright: @ 2024 Sparkle UI
  */

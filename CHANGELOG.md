@@ -1,3 +1,29 @@
+# [v1.0.3](https://github.com/sparkleui/icons/compare/v1.0.2...v1.0.3) (2024-01-11)
+
+## 🎨 CSS
+
+-   Formatting
+
+## ⚛️ Misc
+
+-   Update package.json data
+-   Update copyright comment
+-   Update data with new organization name
+-   Update year
+-   Change repository name to 'icons'
+-   Optimize svg
+-   Build font
+
+## 📦 Dependencies
+
+-   Add prettier
+-   Add stylelint
+-   Add stylelint-prettier
+-   Add @sparkleui/stylelint-config
+-   Add svgo
+-   Add fantasticon
+-   Update devDependencies
+
 # [v1.0.2](https://github.com/sparkleui/icons/compare/v1.0.1...v1.0.2) (2023-12-20)
 
 ## 🎨 CSS
