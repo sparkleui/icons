@@ -1,0 +1,15 @@
+/**
+ * Copyright @ 2023 Daniele De Luca
+ * https://github.com/danieledeluca/sparkle-icons
+ */
+
+${{ name }}-prefix: '{{ prefix }}' !default;
+${{ name }}-font-family: '{{ name }}' !default;
+${{ name }}-directory: '{{ fontsUrl }}' !default;
+${{ name }}-file: '#{${{ name }}-directory}/#{${{ name }}-font-family}' !default;
+${{ name }}-font-src: {{{ fontSrc }}} !default;
+${{ name }}: (
+{{# each codepoints }}
+    '{{ @key }}': '\\{{ codepoint this }}',
+{{/ each }}
+) !default;
