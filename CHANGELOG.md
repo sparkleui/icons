@@ -1,4 +1,4 @@
-# [v1.0.2](https://github.com/danieledeluca/sparkle-icons/compare/v1.0.1...v1.0.2) (2023-12-20)
+# [v1.0.2](https://github.com/sparkleui/icons/compare/v1.0.1...v1.0.2) (2023-12-20)
 
 ## 🎨 CSS
 
@@ -59,7 +59,7 @@
 -   Change icons dimensions to 24x24px
 -   Change copyright comment
 
-# [v1.0.1](https://github.com/danieledeluca/sparkle-icons/compare/v1.0.0...v1.0.1) (2022-10-30)
+# [v1.0.1](https://github.com/sparkleui/icons/compare/v1.0.0...v1.0.1) (2022-10-30)
 
 ## 🎨 CSS
 

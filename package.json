@@ -3,7 +3,7 @@
     "description": "Free, high quality, open source icon library based on Feathericons.",
     "version": "1.0.2",
     "type": "module",
-    "author": "Daniele De Luca",
+    "author": "Sparkle UI",
     "license": "MIT",
     "browserslist": [
         "last 2 versions"
