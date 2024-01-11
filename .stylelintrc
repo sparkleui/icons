@@ -1,0 +1,5 @@
+{
+    "extends": ["stylelint-prettier/recommended", "@sparkleui/stylelint-config"],
+    "ignorePatterns": ".gitignore",
+    "rules": {}
+}

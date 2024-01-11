@@ -14,27 +14,32 @@
         "icons",
         "feather-icons",
         "font",
-        "eot",
         "svg",
-        "ttf",
-        "woff"
+        "woff",
+        "woff2"
     ],
-    "homepage": "https://danieledeluca.github.io/sparkle/",
+    "homepage": "https://sparkleui.github.io/sparkle/icons/introduction/what-is-sparkle-icons",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/danieledeluca/sparkle-icons.git"
+        "url": "git+https://github.com/sparkleui/icons.git"
     },
     "bugs": {
-        "url": "https://github.com/danieledeluca/sparkle-icons/issues"
+        "url": "https://github.com/sparkleui/icons/issues"
     },
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "lint": "stylelint './src/scss/**/*.scss' --config .stylelintrc && prettier './src/scss/**/*.scss' --config .prettierrc --ignore-path .gitignore --check",
+        "format": "stylelint './src/scss/**/*.scss' --config .stylelintrc --fix && prettier './src/scss/**/*.scss' --config .prettierrc --ignore-path .gitignore --write"
     },
     "devDependencies": {
+        "@sparkleui/stylelint-config": "^1.0.0",
         "autoprefixer": "^10.4.16",
+        "prettier": "^3.1.1",
         "sass": "^1.69.5",
+        "stylelint": "^16.1.0",
+        "stylelint-prettier": "^5.0.0",
         "vite": "^5.0.10"
     },
     "files": [
