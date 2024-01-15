@@ -1,3 +1,13 @@
+# [v1.0.4](https://github.com/sparkleui/icons/compare/v1.0.3...v1.0.4) (15-01-15)
+
+## 🎨 CSS
+
+-   Fix icons:
+    -   `behance`
+    -   `phone`
+    -   `settings`
+-   Remove old icons folder
+
 # [v1.0.3](https://github.com/sparkleui/icons/compare/v1.0.2...v1.0.3) (2024-01-11)
 
 ## 🎨 CSS
