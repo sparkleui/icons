@@ -30,10 +30,10 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "build-svg": "svgo -f ./src/icons/ --config svgo.config.js",
+        "build-svg": "svgo -f \"src/icons/\"",
         "build-font": "fantasticon",
-        "lint": "stylelint './src/scss/**/*.scss' --config .stylelintrc && prettier './src/scss/**/*.scss' --config .prettierrc --ignore-path .gitignore --check",
-        "format": "stylelint './src/scss/**/*.scss' --config .stylelintrc --fix && prettier './src/scss/**/*.scss' --config .prettierrc --ignore-path .gitignore --write"
+        "lint": "stylelint \"src/**/*.scss\" --fix --cache",
+        "format": "prettier \"src/**/*.{scss,js}\" --write --cache"
     },
     "devDependencies": {
         "@sparkleui/stylelint-config": "^1.0.0",
