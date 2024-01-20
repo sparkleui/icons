@@ -1,4 +1,40 @@
-# [v1.0.4](https://github.com/sparkleui/icons/compare/v1.0.3...v1.0.4) (15-01-15)
+# [v1.0.5](https://github.com/sparkleui/icons/compare/v1.0.4...v1.0.5) (2024-01-20)
+
+## 🎨 CSS
+
+-   Remove unused scss variables
+-   Change icons:
+    -   `android`
+    -   `apple`
+    -   `behance`
+    -   `discord`
+    -   `dribbble`
+    -   `facebook`
+    -   `github`
+    -   `google`
+    -   `instagram`
+    -   `linkedin`
+    -   `messenger`
+    -   `pinterest`
+    -   `reddit`
+    -   `skype`
+    -   `snapchat`
+    -   `sparkle`
+    -   `spotify`
+    -   `telegram`
+    -   `tiktok`
+    -   `twitch`
+    -   `twitter`
+    -   `vimeo`
+    -   `whatsapp`
+    -   `youtube`
+
+## ⚛️ Misc
+
+-   Update data with new organization name
+-   Update scripts section in package.json
+
+# [v1.0.4](https://github.com/sparkleui/icons/compare/v1.0.3...v1.0.4) (2024-01-15)
 
 ## 🎨 CSS
 
