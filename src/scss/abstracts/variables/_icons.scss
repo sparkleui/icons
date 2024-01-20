@@ -5,8 +5,6 @@
 
 $sparkle-icons-prefix: 'si' !default;
 $sparkle-icons-font-family: 'sparkle-icons' !default;
-$sparkle-icons-directory: './fonts' !default;
-$sparkle-icons-file: '#{$sparkle-icons-directory}/#{$sparkle-icons-font-family}' !default;
 $sparkle-icons-font-src:
     url('./fonts/sparkle-icons.woff?bde877895b30ebbd72be3cc3e1bdbf07') format('woff'),
     url('./fonts/sparkle-icons.woff2?bde877895b30ebbd72be3cc3e1bdbf07') format('woff2') !default;

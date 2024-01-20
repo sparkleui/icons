@@ -5,8 +5,6 @@
 
 ${{ name }}-prefix: '{{ prefix }}' !default;
 ${{ name }}-font-family: '{{ name }}' !default;
-${{ name }}-directory: '{{ fontsUrl }}' !default;
-${{ name }}-file: '#{${{ name }}-directory}/#{${{ name }}-font-family}' !default;
 ${{ name }}-font-src: {{{ fontSrc }}} !default;
 ${{ name }}: (
 {{# each codepoints }}
