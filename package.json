@@ -39,15 +39,15 @@
         "format": "prettier \"src/**/*.{scss,js}\" --write --cache"
     },
     "devDependencies": {
-        "@sparkleui/stylelint-config": "^1.0.0",
-        "autoprefixer": "^10.4.16",
-        "fantasticon": "^2.0.0",
-        "prettier": "^3.1.1",
-        "sass": "^1.69.7",
-        "stylelint": "^16.1.0",
-        "stylelint-prettier": "^5.0.0",
-        "svgo": "^3.2.0",
-        "vite": "^5.0.11"
+        "@sparkleui/stylelint-config": "^1.0.2",
+        "autoprefixer": "^10.4.20",
+        "fantasticon": "^3.0.0",
+        "prettier": "^3.3.3",
+        "sass": "^1.78.0",
+        "stylelint": "^16.9.0",
+        "stylelint-prettier": "^5.0.2",
+        "svgo": "^3.3.2",
+        "vite": "^5.4.3"
     },
     "files": [
         "dist/*.css",
