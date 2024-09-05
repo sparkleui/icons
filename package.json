@@ -58,5 +58,6 @@
     "exports": {
         ".": "./dist/sparkle-icons.min.css",
         "./scss": "./src/scss/abstracts/_abstracts.scss"
-    }
+    },
+    "prettier": "@sparkleui/prettier-config"
 }
