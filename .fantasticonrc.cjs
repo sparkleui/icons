@@ -1,5 +1,5 @@
 const { FontAssetType, OtherAssetType } = require('fantasticon');
-const codepoints = require('./src/template/sparkle-icons.json');
+const codepoints = require('./public/sparkle-icons.json');
 
 /** @type {import('fantasticon').RunnerOptions} */
 module.exports = {
@@ -22,7 +22,7 @@ module.exports = {
     pathOptions: {
         woff: './public/fonts/sparkle-icons.woff',
         woff2: './public/fonts/sparkle-icons.woff2',
-        json: './src/template/sparkle-icons.json',
+        json: './public/sparkle-icons.json',
         scss: './src/scss/abstracts/variables/_icons.scss',
     },
 };

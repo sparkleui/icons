@@ -32,7 +32,7 @@
         "preview": "vite preview",
         "build-svg": "svgo -f \"src/icons/\"",
         "build-font": "npm run clear-font && npm run generate-font && npm run format-font",
-        "clear-font": "echo \"{}\" > \"src/template/sparkle-icons.json\"",
+        "clear-font": "echo \"{}\" > \"public/sparkle-icons.json\"",
         "generate-font": "fantasticon --config .fantasticonrc.cjs",
         "format-font": "prettier \"src/scss/abstracts/variables/_icons.scss\" --write --cache",
         "lint": "stylelint \"src/**/*.scss\" --fix --cache",
