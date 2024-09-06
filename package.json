@@ -36,7 +36,7 @@
     "build": "vite build",
     "build-font": "npm run clear-font && npm run generate-font && npm run format-font",
     "build-svg": "svgo -f \"src/icons/\"",
-    "clear-font": "echo \"{}\" > \"public/sparkle-icons.json\"",
+    "clear-font": "echo \"{}\" > \"src/sparkle-icons.json\"",
     "dev": "vite",
     "format": "prettier . --write --cache",
     "format-font": "prettier \"src/scss/abstracts/variables/_icons.scss\" --write --cache",
