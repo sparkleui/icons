@@ -11,15 +11,15 @@
     font-display: block;
 }
 
-[class^='#{$sparkle-icons-prefix}-icon-'],
-[class*=' #{$sparkle-icons-prefix}-icon-'] {
+[class^='#{$sparkle-icons-prefix}-'],
+[class*=' #{$sparkle-icons-prefix}-'] {
     &::before {
         @include sparkle-icon;
     }
 }
 
 @each $icon, $value in $sparkle-icons {
-    .#{$sparkle-icons-prefix}-icon-#{$icon} {
+    .#{$sparkle-icons-prefix}-#{$icon} {
         &::before {
             content: $value;
         }
@@ -27,7 +27,7 @@
 }
 
 @each $animation, $value in $sparkle-icon-animations {
-    .#{$sparkle-icons-prefix}-icon-#{$animation} {
+    .#{$sparkle-icons-prefix}-#{$animation} {
         &::before {
             animation: $value;
         }
