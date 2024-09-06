@@ -1,63 +1,63 @@
 {
-    "name": "@sparkleui/icons",
-    "description": "Free, high quality, open source icon library based on Feathericons.",
-    "version": "1.0.5",
-    "type": "module",
-    "author": "Sparkle UI",
-    "license": "MIT",
-    "browserslist": [
-        "last 2 versions"
-    ],
-    "keywords": [
-        "sparkle-ui",
-        "sparkle",
-        "icons",
-        "feather-icons",
-        "font",
-        "svg",
-        "woff",
-        "woff2"
-    ],
-    "homepage": "https://sparkleui.github.io/sparkle/icons/introduction/what-is-sparkle-icons",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sparkleui/icons.git"
-    },
-    "bugs": {
-        "url": "https://github.com/sparkleui/icons/issues"
-    },
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview",
-        "build-svg": "svgo -f \"src/icons/\"",
-        "build-font": "npm run clear-font && npm run generate-font && npm run format-font",
-        "clear-font": "echo \"{}\" > \"public/sparkle-icons.json\"",
-        "generate-font": "fantasticon --config .fantasticonrc.cjs",
-        "format-font": "prettier \"src/scss/abstracts/variables/_icons.scss\" --write --cache",
-        "lint": "stylelint \"src/**/*.scss\" --fix --cache",
-        "format": "prettier \"src/**/*.{scss,js}\" --write --cache"
-    },
-    "devDependencies": {
-        "@sparkleui/prettier-config": "^1.0.0",
-        "@sparkleui/stylelint-config": "^1.0.2",
-        "autoprefixer": "^10.4.20",
-        "fantasticon": "^3.0.0",
-        "prettier": "^3.3.3",
-        "sass": "^1.78.0",
-        "stylelint": "^16.9.0",
-        "stylelint-prettier": "^5.0.2",
-        "svgo": "^3.3.2",
-        "vite": "^5.4.3"
-    },
-    "files": [
-        "dist/*.css",
-        "dist/fonts/*",
-        "src/scss/*"
-    ],
-    "exports": {
-        ".": "./dist/sparkle-icons.min.css",
-        "./scss": "./src/scss/abstracts/_abstracts.scss"
-    },
-    "prettier": "@sparkleui/prettier-config"
+  "name": "@sparkleui/icons",
+  "version": "1.0.5",
+  "description": "Free, high quality, open source icon library based on Feathericons.",
+  "keywords": [
+    "sparkle-ui",
+    "sparkle",
+    "icons",
+    "feather-icons",
+    "font",
+    "svg",
+    "woff",
+    "woff2"
+  ],
+  "homepage": "https://sparkleui.github.io/sparkle/icons/introduction/what-is-sparkle-icons",
+  "bugs": {
+    "url": "https://github.com/sparkleui/icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkleui/icons.git"
+  },
+  "license": "MIT",
+  "author": "Sparkle UI",
+  "type": "module",
+  "exports": {
+    ".": "./dist/sparkle-icons.min.css",
+    "./scss": "./src/scss/abstracts/_abstracts.scss"
+  },
+  "files": [
+    "dist/*.css",
+    "dist/fonts/*",
+    "src/scss/*"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "build-font": "npm run clear-font && npm run generate-font && npm run format-font",
+    "build-svg": "svgo -f \"src/icons/\"",
+    "clear-font": "echo \"{}\" > \"public/sparkle-icons.json\"",
+    "dev": "vite",
+    "format": "prettier . --write --cache",
+    "format-font": "prettier \"src/scss/abstracts/variables/_icons.scss\" --write --cache",
+    "generate-font": "fantasticon --config .fantasticonrc.cjs",
+    "lint": "stylelint \"src/**/*.scss\" --fix --cache",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "prettier": "@sparkleui/prettier-config",
+  "devDependencies": {
+    "@sparkleui/prettier-config": "^1.0.0",
+    "@sparkleui/stylelint-config": "^1.0.2",
+    "autoprefixer": "^10.4.20",
+    "fantasticon": "^3.0.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.78.0",
+    "stylelint": "^16.9.0",
+    "stylelint-prettier": "^5.0.2",
+    "svgo": "^3.3.2",
+    "vite": "^5.4.3"
+  }
 }
